@@ -2,10 +2,3 @@
 
 require_relative '../lib/move.rb'
 
-puts "Welcome to Tic Tac Toe!"
-board = Board.new
-
-puts "Where would you like to go?"
-index = gets.to_i - 1
-board.move(index, 'x')
-board.display
